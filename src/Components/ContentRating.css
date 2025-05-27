@@ -8,8 +8,43 @@
     justify-content: center;
     flex-direction: column;
   }
-  
-  .image {
+
+  .content-rating #info {
+  background-color: #d9d5d5; /* light grey box */
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.content-rating #tweet {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #0f1419; /* Twitter-like dark grey */
+  background-color: #ffffff;
+  border: 1px solid #e1e8ed;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 600px;
+  line-height: 1.5;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.mention {
+  color: #1da1f2;         /* Twitter blue */
+  text-decoration: none;
+}
+
+.mention:hover {
+  text-decoration: underline;
+}
+
+.image {
     max-width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
